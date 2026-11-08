@@ -20,7 +20,8 @@
   <li>With <code>youtube.upload</code>, it uploads videos the owner made to the owner's channel and sets their thumbnails. Every upload is private.</li>
   <li>With <code>youtube.readonly</code>, it reads the processing status of those uploads, so it knows when a thumbnail can be set.</li>
 </ul>
-<p>It does not read comments, subscribers, analytics, other videos, or any data from other accounts.</p>
+<p>Through this sign-in it does not read comments, subscribers, analytics or any other private account data.</p>
+<p>Separately, without signing in, it reads public YouTube information with an API key: titles and view counts of recent public videos, and public comments on the owner's own videos. That is the same information anyone can see on YouTube.</p>
 
 <h2>Where the data stays</h2>
 <p>The sign-in token is stored in a file on the owner's own computer and is never sent anywhere except to Google when the tool calls the YouTube API. The tool has no server and no database, and it does not collect, sell or share Google user data with anyone.</p>
